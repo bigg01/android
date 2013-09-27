@@ -1,0 +1,10 @@
+cd /path/to/my/development/directories
+    $ phonegap create hello com.example.hello HelloWorld
+    $ cd hello
+      # use this Markdown file to document the app on the GitHub site:
+    $ touch README.md
+    $ git init
+    $ git add .
+    $ git commit -am "bootstrap default app"
+    $ git remote add origin https://github.com/ulothrix/hello.git
+    $ git push -u origin master
